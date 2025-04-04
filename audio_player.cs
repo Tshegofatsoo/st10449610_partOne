@@ -26,7 +26,7 @@ namespace st10449610_partOne
             string full_path = Path.Combine(new_location, "ultronn.wav");
 
 
-            //try and catch, error handling
+            //try and catch for error handling
             try
             {
                 //using function to create play instance
