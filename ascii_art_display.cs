@@ -18,7 +18,7 @@ namespace st10449610_partOne
 
             //create ASCII image using Bitmap class 
             Bitmap image = new Bitmap(full_path);
-            image = new Bitmap(image, new Size(60, 50));
+            image = new Bitmap(image, new Size(50, 50));
 
             //outer and inner loop
             for (int height = 0; height < image.Height; height++)
