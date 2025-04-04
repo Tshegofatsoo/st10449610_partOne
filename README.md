@@ -1,6 +1,6 @@
  											Project Details
 
-1: Project Name: st_10449610_partOne
+1: Project Name: st10449610_partOne
 2: .NETFrame: 4.0.8
 3: Template Type: Console App (C# .NET Framework)
 
