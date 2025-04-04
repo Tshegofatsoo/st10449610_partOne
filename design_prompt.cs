@@ -32,7 +32,7 @@ namespace st10449610_partOne
             Console.ForegroundColor = ConsoleColor.White;
             Console.Write("Ultron <3: ");
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("What is your name? ");
+            Console.WriteLine("Hello. What is your name? ");
 
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write("You: ");
