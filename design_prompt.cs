@@ -67,6 +67,7 @@ namespace st10449610_partOne
         }
 
         private List<string> phishingResponse = new List<string>();
+        // Initialized a list of responses related to phishing
         public void initPhishing()
         {
             phishingResponse.Add("Phishing is when hackers send deceptive emails/messages tricking users into revealing sensitive information.");
@@ -85,6 +86,7 @@ namespace st10449610_partOne
             WiFiResponse.Add("Disable auto-connect to open Wi-Fi networks in your device settings.");
         }
 
+        //method to select a random response from the lists above
         public string getRandomResponse(List<string> list)
         {
             Random rnd = new Random();
