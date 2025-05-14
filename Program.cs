@@ -19,6 +19,10 @@ namespace st10449610_partOne
             //create an instance for design_prompt
             new design_prompt() { };
 
+            //new instance for user_memory
+            new memory() { };
+
+
         }
         //Link to my github respository : https://github.com/Tshegofatsoo/st10449610_partOne.git
     }
