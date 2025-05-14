@@ -19,7 +19,7 @@ namespace st10449610_partOne
             //create an instance for design_prompt
             new design_prompt() { };
 
-            //new instance for user_memory
+            //create an instance for user_memory
             new memory() { };
 
 
