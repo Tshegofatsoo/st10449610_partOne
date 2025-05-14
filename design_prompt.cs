@@ -69,7 +69,7 @@ namespace st10449610_partOne
         public void initPhishing()
         {
             phishingResponse.Add("Phishing is when hackers send deceptive emails/messages tricking users into revealing sensitive information.");
-            phishingResponse.Add("Basically, phishing is online trickery. Someone fakes being a trusted source to get your login details or money. Always look for signs like weird links or urgent messages.");
+            phishingResponse.Add("Basically, phishing is online trickery. Someone fakes being a trusted source to get your login details or money. \\nAlways look for signs like weird links or urgent messages.\");
             phishingResponse.Add("Always access websites by typing the address yourself, instead of clicking on links in emails.");
             phishingResponse.Add("Look for spelling mistakes and urgent language; these are common signs of phishing.");
             phishingResponse.Add("Check the sender's email address carefully. Even a small change can indicate a fake.");
