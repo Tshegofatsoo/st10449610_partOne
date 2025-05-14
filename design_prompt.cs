@@ -47,7 +47,7 @@ namespace st10449610_partOne
      
         };
         private List<string> passwordResponse = new List<string>();
- 
+        //init = initialize.  I initialized a list of responses related to password safety
         public void initPassword()
         {
             passwordResponse.Add("Always use a strong password with a mix of letters, numbers, and symbols. \nNever reuse passwords!");
@@ -57,6 +57,7 @@ namespace st10449610_partOne
         }
 
         private List<string> virusResponse = new List<string>();
+        //I initialized a list of responses related to viruses
         public void initVirus()
         {
             virusResponse.Add("A virus is a malware that sneaks into your device and spreads and causes damage to data. \\nTo avoid being attacked by a virus, do not click dodgy links or download stuff from strange websites, or use antivirus software.\"  ");
@@ -69,7 +70,7 @@ namespace st10449610_partOne
         public void initPhishing()
         {
             phishingResponse.Add("Phishing is when hackers send deceptive emails/messages tricking users into revealing sensitive information.");
-            phishingResponse.Add("Basically, phishing is online trickery. Someone fakes being a trusted source to get your login details or money. \\nAlways look for signs like weird links or urgent messages.\");
+            phishingResponse.Add("Basically, phishing is online trickery. Someone fakes being a trusted source to get your login details or money.\nAlways look for signs like weird links or urgent messages.");
             phishingResponse.Add("Always access websites by typing the address yourself, instead of clicking on links in emails.");
             phishingResponse.Add("Look for spelling mistakes and urgent language; these are common signs of phishing.");
             phishingResponse.Add("Check the sender's email address carefully. Even a small change can indicate a fake.");
